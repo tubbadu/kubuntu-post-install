@@ -4,12 +4,12 @@ wget https://gist.githubusercontent.com/CodeSigils/974abb61becf435c857b55e925f12
 sudo bash ubuntu-remove-telemetry.sh
 
 #enable multiverse repo
-sudo add-apt-repository multiverse
+sudo add-apt-repository multiverse -y
 
 # install flatpak
-sudo add-apt-repository ppa:alexlarsson/flatpak
+sudo add-apt-repository ppa:alexlarsson/flatpak -y
 sudo apt update
-sudo apt install flatpak
+sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # remove snaps of firefox and chromium, if present
