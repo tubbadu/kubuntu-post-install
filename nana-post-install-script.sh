@@ -12,15 +12,14 @@ sudo apt update
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-# remove snaps of firefox and chromium, if present
-sudo snap remove firefox
-sudo snap remove chromium
+# install snaps of firefox and chromium, if not present
+sudo snap install firefox
+sudo snap install chromium
 
 # install flatpak apps
 flatpak install org.onlyoffice.desktopeditors -y
 flatpak install com.spotify.Client -y
-flatpak install org.chromium.Chromium -y
-flatpak install org.mozilla.firefox -y
+
 
 # install wine
 sudo dpkg --add-architecture i386
