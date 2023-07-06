@@ -8,7 +8,7 @@ sudo add-apt-repository multiverse -y
 
 # install flatpak
 sudo add-apt-repository ppa:alexlarsson/flatpak -y
-sudo apt update
+sudo apt update -y
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
@@ -26,7 +26,7 @@ sudo dpkg --add-architecture i386
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
-sudo apt update
+sudo apt update -y
 sudo apt install --install-recommends winehq-stable -y
 
 # install apps

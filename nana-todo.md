@@ -17,6 +17,7 @@
 - configure wine
 - configure lutris
 - configure timeshift
+- configure spectacle (ask her how)
 
 
 ## post install script
