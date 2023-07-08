@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Minecraft
+Comment=Play Minecraft
+Exec=/opt/Minecraft/UltimMC/UltimMC
+Icon=/opt/Minecraft/minecraft-logo.svg
+Terminal=false
+Type=Application
+Categories=Game;
