@@ -7,7 +7,7 @@ sudo bash ubuntu-remove-telemetry.sh
 sudo add-apt-repository multiverse -y
 
 # install flatpak
-sudo add-apt-repository ppa:alexlarsson/flatpak -y
+sudo add-apt-repository ppa:flatpak/stable -y
 sudo apt update -y
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -36,7 +36,7 @@ sudo apt install kpat -y
 sudo apt install telegram-desktop -y
 sudo apt install minetest -y
 sudo apt install haruna -y
-sudo apt install timeshift -y
+sudo apt install gimp -y
 
 # install wayland
 sudo apt install plasma-workspace-wayland -y
